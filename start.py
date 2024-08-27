@@ -124,6 +124,8 @@ if current_language == 'en':
                 ##### General legal information can be found in the <a href="{datenschutz_page}" target="_self">Privacy Policy</a> and <a href="{impressum_page}" target="_self">Legal Notice</a>.
 
                 ##### **Login on the sidebar** to enter the chat area.
+                
+                ##### Please note: kiwi will be undergoing a rebuild shortly. In this <a href="https://digitale-lehre.uni-osnabrueck.de/2024/08/26/kiwi-wird-umgebaut/" target="_self">blog article</a> you will find an overview of the most important changes.
                 """
     else:
 
@@ -137,6 +139,8 @@ if current_language == 'en':
         ##### General legal information can be found in the [Privacy Policy]({DATENSCHUTZ}) and [Legal Notice]({IMPRESSUM}).
     
         ##### **Login on the sidebar** to enter the chat area.
+        
+        ##### Please note: kiwi will be undergoing a rebuild shortly. In this <a href="https://digitale-lehre.uni-osnabrueck.de/2024/08/26/kiwi-wird-umgebaut/" target="_self">blog article</a> you will find an overview of the most important changes.
         """
                   ).format(APP_NAME=APP_NAME, DATENSCHUTZ=datenschutz_link, IMPRESSUM=impressum_link,
                            INSTITUTION=institution_name)
@@ -162,6 +166,8 @@ else:
                 ##### Mehr zu den rechtlichen Hintergründen erfahren Sie in den <a href="{datenschutz_page}" target="_self">Datenschutzhinweisen</a> und im <a href="{impressum_page}" target="_self">Impressum</a>.
 
                 ##### Um den Chat-Bereich zu betreten, **melden Sie sich in der Seitenleiste an**.
+                
+                ##### Bitte beachten Sie: kiwi wird in Kürze umgebaut. In diesem <a href="https://digitale-lehre.uni-osnabrueck.de/2024/08/26/kiwi-wird-umgebaut/" target="_self">Blogartikel</a> finden Sie einen Überblick über die wichtigsten Neuerungen.
                 """
     else:
         md_msg = ("""
@@ -174,6 +180,8 @@ else:
         ##### Mehr zu den rechtlichen Hintergründen erfahren Sie in den [Datenschutzhinweisen]({DATENSCHUTZ}) und im [Impressum]({IMPRESSUM}).
         
         ##### Um den Chat-Bereich zu betreten, **melden Sie sich in der Seitenleiste an**.
+        
+        ##### Bitte beachten Sie: kiwi wird in Kürze umgebaut. In diesem <a href="https://digitale-lehre.uni-osnabrueck.de/2024/08/26/kiwi-wird-umgebaut/" target="_self">Blogartikel</a> finden Sie einen Überblick über die wichtigsten Neuerungen.
         """
                   ).format(APP_NAME=APP_NAME, DATENSCHUTZ=datenschutz_link, IMPRESSUM=impressum_link,
                            INSTITUTION=institution_name)
